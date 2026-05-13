@@ -1,0 +1,7 @@
+title: CocoaSwifty Pages
+description: Public support and privacy documents.
+baseurl: /Pages
+url: https://cocoaswifty.github.io
+markdown: kramdown
+exclude:
+  - README.md
