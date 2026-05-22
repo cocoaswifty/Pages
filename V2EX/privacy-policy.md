@@ -41,10 +41,9 @@ When the app contacts these services, standard network information such as your 
 V2EX contains user-generated content from the V2EX community. The app provides:
 
 - Tools to ignore topics and block or ignore members
-- Report links for topics, replies, and members
-- Contact information for safety, privacy, and support concerns
+- Links and actions that use V2EX platform features where available
 
-The app does not tolerate harassment, threats, hate, sexual exploitation, scams, intellectual property infringement, or illegal content. Reports can be sent to the contact address below.
+V2EX platform content is operated and moderated by V2EX, not by this app. Objectionable content should be handled through V2EX platform mechanisms. The app's local ignore and block features are intended to reduce repeated exposure to unwanted content inside the app.
 
 ## What V2EX Does Not Do
 
@@ -65,7 +64,7 @@ Because this app lets you sign in, post content, reply, and optionally upload im
 
 ## Contact
 
-For privacy, safety, report, or support questions, contact:
+For privacy questions about this app, contact:
 
 cocoaswifty@gmail.com
 
@@ -85,10 +84,10 @@ App 會在裝置本機保存字體大小、每日任務設定、草稿、圖片�
 
 App 會連線到 V2EX 進行登入、讀取主題、發文、回覆、通知、收藏、忽略/封鎖與每日任務等操作。當你主動選擇圖片時，App 會使用 ImgBB 上傳圖片並將圖片網址插入文章內容。外部連結會依照你選擇開啟。
 
-V2EX 包含使用者產生內容。App 提供忽略主題、忽略/封鎖使用者、檢舉主題、檢舉回覆、檢舉使用者與聯絡開發者的入口。App 不容忍騷擾、威脅、仇恨、色情剝削、詐騙、侵犯智慧財產權或違法內容。
+V2EX 包含來自 V2EX 社群的使用者產生內容。V2EX 平台內容由 V2EX 營運與管理，不由本 App 管理。App 提供忽略主題、忽略/封鎖使用者等功能，用來降低你在 App 內再次看到不想看到內容的機會；不當內容應透過 V2EX 平台本身的處理機制處理。
 
 V2EX 不使用廣告 SDK、不追蹤使用者跨 App 或網站的活動、不出售個人資料，也不會存取聯絡人、麥克風、相機或精確位置。
 
-隱私、安全、檢舉或支援問題請聯絡：
+本 App 的隱私問題請聯絡：
 
 cocoaswifty@gmail.com
