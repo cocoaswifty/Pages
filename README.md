@@ -2,6 +2,10 @@
 
 Public GitHub Pages documents for CocoaSwifty apps.
 
+## MarketPantry
+
+- Privacy Policy: `https://cocoaswifty.github.io/Pages/MarketPantry/privacy-policy/`
+
 ## V2EX
 
 - Privacy Policy: `https://cocoaswifty.github.io/Pages/V2EX/privacy-policy/`
