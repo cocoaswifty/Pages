@@ -12,3 +12,4 @@ Public support and privacy documents.
 - [V2EX Privacy Policy]({{ '/V2EX/privacy-policy/' | relative_url }})
 - [TuneNow]({{ '/TuneNow/' | relative_url }})
 - [FreshRadar]({{ '/FreshRadar/' | relative_url }})
+- [Toilet Privacy Policy]({{ '/Toilet/privacy-policy/' | relative_url }})

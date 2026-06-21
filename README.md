@@ -19,6 +19,10 @@ Public GitHub Pages documents for CocoaSwifty apps.
 
 - Privacy Policy: `https://cocoaswifty.github.io/Pages/FreshRadar/privacy-policy/`
 
+## Toilet
+
+- Privacy Policy: `https://cocoaswifty.github.io/Pages/Toilet/privacy-policy/`
+
 ## Publishing
 
 Enable GitHub Pages for this repository from the `main` branch and root folder.
