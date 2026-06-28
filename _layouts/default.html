@@ -37,25 +37,14 @@
       background: var(--bg);
     }
 
-    header,
     main,
     footer {
       width: min(760px, calc(100% - 32px));
       margin: 0 auto;
     }
 
-    header {
-      padding: 32px 0 16px;
-    }
-
-    nav {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-      font-size: 15px;
-    }
-
     main {
+      margin-top: 32px;
       margin-bottom: 40px;
       padding: 28px;
       border: 1px solid var(--border);
@@ -91,24 +80,11 @@
   </style>
 </head>
 <body>
-  <header>
-    <nav aria-label="Main navigation">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/MarketPantry/privacy-policy/' | relative_url }}">MarketPantry Privacy</a>
-      <a href="{{ '/V2EX/privacy-policy/' | relative_url }}">V2EX Privacy</a>
-      <a href="{{ '/TuneNow/' | relative_url }}">TuneNow</a>
-      <a href="{{ '/TuneNow/privacy-policy/' | relative_url }}">TuneNow Privacy</a>
-      <a href="{{ '/TuneNow/support/' | relative_url }}">Support</a>
-      <a href="{{ '/FreshRadar/' | relative_url }}">FreshRadar</a>
-      <a href="{{ '/FreshRadar/privacy-policy/' | relative_url }}">FreshRadar Privacy</a>
-      <a href="{{ '/Toilet/privacy-policy/' | relative_url }}">Toilet Privacy</a>
-    </nav>
-  </header>
   <main>
     {{ content }}
   </main>
   <footer>
-    Public support and privacy information.
+    Contact: cocoaswifty@gmail.com
   </footer>
 </body>
 </html>

@@ -5,10 +5,12 @@ Public GitHub Pages documents for CocoaSwifty apps.
 ## MarketPantry
 
 - Privacy Policy: `https://cocoaswifty.github.io/Pages/MarketPantry/privacy-policy/`
+- Support: `https://cocoaswifty.github.io/Pages/MarketPantry/support/`
 
 ## V2EX
 
 - Privacy Policy: `https://cocoaswifty.github.io/Pages/V2EX/privacy-policy/`
+- Support: `https://cocoaswifty.github.io/Pages/V2EX/support/`
 
 ## TuneNow
 
@@ -18,10 +20,12 @@ Public GitHub Pages documents for CocoaSwifty apps.
 ## FreshRadar
 
 - Privacy Policy: `https://cocoaswifty.github.io/Pages/FreshRadar/privacy-policy/`
+- Support: `https://cocoaswifty.github.io/Pages/FreshRadar/support/`
 
 ## Toilet
 
 - Privacy Policy: `https://cocoaswifty.github.io/Pages/Toilet/privacy-policy/`
+- Support: `https://cocoaswifty.github.io/Pages/Toilet/support/`
 
 ## Publishing
 
