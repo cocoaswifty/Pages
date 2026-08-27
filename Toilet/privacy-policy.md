@@ -6,9 +6,9 @@ permalink: /Toilet/privacy-policy/
 
 # Toilet Privacy Policy
 
-Effective date: August 24, 2026
+Effective date: August 27, 2026
 
-Toilet is an iOS app for finding nearby public toilets and helping improve toilet location information. It uses your location to show nearby toilets, lets you submit new or corrected toilet information, and uses Firebase services for account identification, data storage, and app diagnostics.
+Toilet is an iOS app for finding nearby public toilets and helping improve toilet location information. It uses your location to show nearby toilets, lets you submit new or corrected toilet information for administrator review, and uses Firebase services for account identification, data storage, and app diagnostics.
 
 This policy explains what information Toilet stores, what services it contacts, and what the app does not do.
 
@@ -42,9 +42,11 @@ To provide and improve app functionality, Toilet may send the following data to 
 
 Firebase may process standard network information such as your IP address as part of normal internet communication.
 
-## User-Submitted Toilet Information
+## User-Submitted Toilet Information and Review
 
-When you submit a new toilet, edit a toilet, rate a toilet, or report a toilet problem, the information you provide is sent to Firebase so it can be reviewed or used to improve the toilet database.
+When you submit a new toilet, edit a toilet, or submit a deletion, the proposed listing data is sent to Firebase and placed in an administrator review queue. An administrator reviews the proposed change, and only an approved submission updates the public toilet directory. While a submission is pending, the submitting device may show a local preview of the proposed change; the pending change is not published to other users until it is approved. You can see the status of your submissions in the app.
+
+If you find inaccurate listing information, the current in-app way to bring it to our attention is to edit the listing and submit the proposed correction. This workflow is for factual toilet-data corrections. Toilet does not currently provide free-form posts, comments, chat, or an in-app user-blocking feature. Ratings are a separate feature and may update an aggregate toilet rating without going through the listing-edit review queue.
 
 Do not enter personal information into toilet names, address notes, or report fields.
 
@@ -97,9 +99,9 @@ This privacy policy may be updated when Toilet changes its features, data practi
 
 # Toilet 隱私權政策摘要
 
-生效日期：2026 年 8 月 24 日
+生效日期：2026 年 8 月 27 日
 
-Toilet 是用來尋找附近公廁並協助改善廁所地點資料的 iOS App。App 會使用定位權限來顯示附近廁所、依距離排序、移動地圖到目前位置，並在你提交新增、修改或回報資料時關聯相關地區。
+Toilet 是用來尋找附近公廁並協助改善廁所地點資料的 iOS App。App 會使用定位權限來顯示附近廁所、依距離排序、移動地圖到目前位置，並在你提交新增、修改或刪除資料時，將提案交由管理員審核。
 
 App 可能在裝置本機保存匿名 Firebase 使用者 ID、最後位置、國家碼、登入次數、評論狀態、付費狀態與篩選偏好。這些資料使用 Apple UserDefaults 儲存。
 
@@ -108,6 +110,12 @@ Toilet 使用 Firebase Authentication 匿名登入，並使用 Cloud Firestore �
 Firebase 在正常網路連線中可能處理你的 IP 位址。Toilet 不使用廣告 SDK、不出售個人資料、不跨 App 或網站追蹤你，也不會要求姓名、電子郵件、電話、聯絡人、麥克風、相機、照片或密碼。
 
 請不要在廁所名稱、地址描述或回報內容中輸入個人資料。
+
+## 使用者提交資料與人工審核
+
+當你新增公廁、修改公廁資料或提交刪除要求時，提案會先送到 Firebase 的管理員審核清單。管理員檢查提案後，只有核准的內容才會更新公開公廁資料。審核期間，提交修改的裝置可能會先看到修改內容的本機預覽；其他使用者要等管理員核准後才會看到更新。你可以在 App 內查看自己提交資料的審核狀態。
+
+如果你發現公廁資料有誤，目前 App 內將問題交給我們處理的方式，是直接編輯該筆資料並提交修改。這個流程是針對公廁事實資料的更正；Toilet 目前沒有自由發文、留言、聊天或 App 內封鎖使用者功能。評分是獨立功能，可能會直接更新公廁的彙總評分，不會進入公廁資料修改的審核流程。
 
 ## 資料保存期限與刪除
 
