@@ -20,6 +20,14 @@ TuneNow plays streams operated by independent broadcasters. A station may be off
 
 Check your internet connection, tap the station again, or try another station. For directory-loading errors, use the Retry button shown in the app. Because broadcasters control their own streams, TuneNow cannot guarantee that every listed station is always available.
 
+### Does TuneNow download or record audio?
+
+No. TuneNow provides live playback through Apple's AVPlayer and has no recording, conversion, export, or download control. The player may use transient buffers required for playback, but TuneNow does not expose saved audio files.
+
+### Is the station directory static?
+
+No. Station results and stream URLs are requested from the community-operated Radio Browser directory at runtime. The directory changes independently of TuneNow, and a listing is not a guarantee that a station is always online or that TuneNow owns the station's programming rights.
+
 ### Why does TuneNow sometimes use an HTTP stream?
 
 TuneNow's API, search, metadata, and station-icon requests use HTTPS. Some independent broadcasters still provide audio only over HTTP, so a station you choose may connect through an unencrypted stream. TuneNow never sends account credentials, favorites, contacts, or precise location through the audio stream.
@@ -84,6 +92,14 @@ TuneNow（中文名稱：聽一下電台）是 iOS 與 iPadOS 網路電台目錄
 TuneNow 播放由獨立廣播業者營運的串流。電台可能離線、暫時負載過高、限制特定地區，或使用已失效的串流網址。
 
 請先檢查網路後再次點選電台，或改試其他電台。若目錄載入失敗，可使用 App 畫面中的「重試」按鈕。串流由廣播業者自行控制，因此 TuneNow 無法保證所有列出的電台隨時都可播放。
+
+### TuneNow 會下載或錄音嗎？
+
+不會。TuneNow 透過 Apple AVPlayer 提供即時播放，沒有錄音、轉檔、匯出或下載控制項。播放器可能使用播放所需的暫時 buffer，但 TuneNow 不會提供儲存的音訊檔案。
+
+### 電台目錄是固定的嗎？
+
+不是。電台結果與串流網址會在執行時向社群營運的 Radio Browser 目錄請求。目錄可獨立於 TuneNow 變動；列出某電台不代表它永遠在線，也不代表 TuneNow 擁有該電台節目的權利。
 
 ### 為什麼 TuneNow 有時會使用 HTTP 串流？
 

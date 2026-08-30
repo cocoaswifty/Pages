@@ -6,15 +6,18 @@ permalink: /TuneNow/privacy-policy/
 
 # TuneNow Privacy Policy
 
-Effective date: August 25, 2026
+Effective date: August 30, 2026  
+Applies to: TuneNow 1.0 (build 1)
 
 TuneNow (Chinese name: 聽一下電台) is an iOS and iPadOS internet radio directory and player provided by CocoaSwifty ("we," "us," or "the developer"). This policy explains what the app stores, which third-party services it contacts, and the choices available to you.
 
 ## Summary
 
 - TuneNow does not require an account and does not operate a user-data backend.
-- The developer does not receive or store your favorites, recent stations, searches, or listening history.
-- TuneNow does not include advertising or analytics SDKs and does not track you across apps or websites.
+- The developer does not receive or store your favorites, recent stations, searches, or listening history on a TuneNow server.
+- TuneNow does not include advertising or analytics SDKs and does not use your data for cross-app or cross-website tracking. Radio Browser mirror operators may process search and station requests for service operation and aggregate directory statistics.
+- The station directory is dynamic: TuneNow requests current results and stream URLs at runtime rather than shipping a complete catalogue or a fixed station allowlist.
+- TuneNow provides live playback only. It does not record, download, convert, export, or provide user-accessible persistent audio files; Apple's player may transiently buffer audio as required for playback.
 - To provide station discovery and playback, the app sends requests directly to Radio Browser, station icon hosts, and radio stream providers. Those services receive ordinary network information such as your IP address.
 
 ## Information Stored on Your Device
@@ -30,11 +33,15 @@ Favorites and recent-station records may include public station information such
 
 TuneNow does not sync this information to a TuneNow account or developer-operated server. Apple-controlled device backups may handle local app data according to your device and iCloud backup settings.
 
+TuneNow does not access or transmit an advertising identifier, IDFV, or another device-level identifier. The network providers described below may still receive an IP address and standard connection information as part of delivering their services.
+
 ## Network Requests and Third-Party Processing
 
 ### Radio Browser
 
 TuneNow uses the community-operated [Radio Browser](https://www.radio-browser.info/) API to retrieve countries, station lists, categories, search results, station metadata, and resolved stream URLs.
+
+The directory is dynamic and community-maintained. TuneNow does not bundle the directory, guarantee that a listing proves ownership or permission for a broadcaster's programming, or use this policy as a rights grant. The app requests current directory results and resolves a selected station at playback time; it may try another documented Radio Browser API mirror if a mirror is unavailable.
 
 Depending on the feature you use, TuneNow may transmit the following to a Radio Browser API mirror:
 
@@ -51,6 +58,8 @@ TuneNow uses this information only to return the directory content or station st
 ### Radio station streams
 
 When you play a station, your device connects directly to the broadcaster or its streaming provider. The stream provider can receive your IP address, request time, standard connection headers, and playback-related requests. It may also provide audio metadata, such as a current program or track title, which TuneNow processes for playback display.
+
+TuneNow passes the broadcaster-provided stream URL to Apple's AVPlayer for live playback. TuneNow does not operate an audio relay or proxy, copy the stream to a developer server, record it, or offer a save, export, or download control. The player and operating system may create transient playback buffers that are not exposed as user files by TuneNow.
 
 Some independently operated stations still use unencrypted HTTP audio streams. On such a connection, the requested stream and network traffic are not protected by HTTPS and may be observable or altered in transit. TuneNow does not send your favorites, search history, account credentials, contacts, or precise location to the broadcaster.
 
@@ -73,8 +82,11 @@ TuneNow does not:
 - Sell personal information
 - Share personal information for cross-context behavioral advertising
 - Track you across apps or websites
+- Access or transmit an advertising identifier, IDFV, or other device-level identifier
 - Access your contacts, photos, microphone, camera, health data, or precise location
 - Upload your favorites or recent-station list to the developer
+- Ship a complete station catalogue or a fixed allowlist of broadcasters
+- Record, download, convert, export, or persistently save the audio stream
 
 ## Purpose and Retention
 
@@ -116,15 +128,18 @@ We may update this policy when TuneNow changes its features, data practices, or 
 
 # 聽一下電台隱私權政策
 
-生效日期：2026 年 8 月 25 日
+生效日期：2026 年 8 月 30 日  
+適用版本：TuneNow 1.0（build 1）
 
 TuneNow（中文名稱：聽一下電台）是由 CocoaSwifty（以下稱「我們」或「開發者」）提供的 iOS 與 iPadOS 網路電台目錄及播放器。本政策說明 App 儲存哪些資料、會連線至哪些第三方服務，以及你可採取的選擇。
 
 ## 摘要
 
 - 聽一下電台不需要帳號，也沒有儲存使用者資料的自有後端。
-- 開發者不會收到或保存你的收藏、近期電台、搜尋內容或收聽紀錄。
-- App 不包含廣告或分析 SDK，也不會跨 App 或網站追蹤你。
+- 開發者不會在 TuneNow 伺服器上收到或保存你的收藏、近期電台、搜尋內容或收聽紀錄。
+- TuneNow 不包含廣告或分析 SDK，也不會使用你的資料進行跨 App 或跨網站追蹤。Radio Browser mirror 營運者可能為服務運作及彙總目錄統計而處理搜尋與電台請求。
+- 電台目錄是動態的：TuneNow 會在執行時請求最新結果及串流網址，不會隨 App 內建完整目錄或固定電台 allowlist。
+- TuneNow 僅提供即時播放，不會錄音、下載、轉檔、匯出或提供使用者可存取的持久音訊檔案；Apple 播放器可能依播放需要暫時 buffer 音訊。
 - 為提供電台搜尋及播放功能，App 會直接連線至 Radio Browser、電台圖示主機及電台串流供應者；這些服務會收到 IP 位址等一般網路資訊。
 
 ## 儲存在裝置上的資料
@@ -140,11 +155,15 @@ TuneNow（中文名稱：聽一下電台）是由 CocoaSwifty（以下稱「我�
 
 這些資料不會同步至 TuneNow 帳號或開發者營運的伺服器。裝置本機資料是否進入 Apple 管理的備份，取決於你的裝置與 iCloud 備份設定。
 
+TuneNow 不會存取或傳送廣告識別碼、IDFV 或其他裝置層級識別碼。不過，下述網路服務商為提供服務，仍可能收到 IP 位址及標準連線資訊。
+
 ## 網路請求與第三方處理
 
 ### Radio Browser
 
 聽一下電台使用社群營運的 [Radio Browser](https://www.radio-browser.info/) API 取得國家、電台清單、分類、搜尋結果、電台 metadata 及解析後的串流網址。
+
+此目錄由社群維護且會動態變更。TuneNow 不會將目錄完整打包進 App，不會保證目錄列出即代表廣播業者對節目擁有權利或取得許可，也不會把本政策當作權利授與。App 會在播放時請求最新目錄結果並解析所選電台；若某個 API mirror 無法使用，可能改用其他 Radio Browser 官方列出的 mirror。
 
 依你使用的功能，App 可能將下列資料傳送至 Radio Browser API mirror：
 
@@ -161,6 +180,8 @@ TuneNow 僅使用上述請求取得你要求的目錄內容或電台串流；開
 ### 電台串流
 
 播放電台時，你的裝置會直接連線至廣播業者或其串流供應者。串流供應者可能收到你的 IP 位址、請求時間、標準連線 header 及播放相關請求，也可能提供節目或歌曲標題等音訊 metadata，供 App 顯示播放資訊。
+
+TuneNow 會將廣播業者提供的串流網址交給 Apple AVPlayer 進行即時播放。TuneNow 不會營運音訊 relay 或 proxy，不會將串流複製至開發者伺服器，也不會提供錄音、儲存、匯出或下載控制項。播放器及作業系統可能建立播放所需的暫時 buffer，但 TuneNow 不會把它暴露為使用者檔案。
 
 部分獨立電台仍使用未加密的 HTTP 音訊串流。使用這類連線時，所請求的串流與網路流量不受 HTTPS 保護，可能在傳輸途中被觀察或修改。TuneNow 不會將你的收藏、搜尋紀錄、帳號憑證、聯絡人或精確位置傳送給廣播業者。
 
@@ -183,8 +204,11 @@ TuneNow 不會：
 - 出售個人資料
 - 為跨情境行為廣告分享個人資料
 - 跨 App 或網站追蹤你
+- 存取或傳送廣告識別碼、IDFV 或其他裝置層級識別碼
 - 存取聯絡人、照片、麥克風、相機、健康資料或精確位置
 - 將收藏或近期電台清單上傳給開發者
+- 隨 App 內建完整電台目錄或固定廣播業者 allowlist
+- 錄音、下載、轉檔、匯出或持久保存音訊串流
 
 ## 使用目的與保存期限
 
