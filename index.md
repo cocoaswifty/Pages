@@ -11,6 +11,7 @@ Public support and privacy documents.
 ## RoadkillReporter
 
 - [Privacy Policy]({{ '/RoadkillReporter/privacy-policy/' | relative_url }})
+- [Support]({{ '/RoadkillReporter/support/' | relative_url }})
 
 ## MarketPantry
 

@@ -5,6 +5,7 @@ Public GitHub Pages documents for CocoaSwifty apps.
 ## RoadkillReporter
 
 - Privacy Policy: `https://cocoaswifty.github.io/Pages/RoadkillReporter/privacy-policy/`
+- Support: `https://cocoaswifty.github.io/Pages/RoadkillReporter/support/`
 
 ## MarketPantry
 
