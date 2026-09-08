@@ -8,6 +8,10 @@ permalink: /
 
 Public support and privacy documents.
 
+## RoadkillReporter
+
+- [Privacy Policy]({{ '/RoadkillReporter/privacy-policy/' | relative_url }})
+
 ## MarketPantry
 
 - [Privacy Policy]({{ '/MarketPantry/privacy-policy/' | relative_url }})
