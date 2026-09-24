@@ -32,6 +32,11 @@ Public GitHub Pages documents for CocoaSwifty apps.
 - Privacy Policy: `https://cocoaswifty.github.io/Pages/Toilet/privacy-policy/`
 - Support: `https://cocoaswifty.github.io/Pages/Toilet/support/`
 
+## QTap
+
+- Privacy Policy: `https://cocoaswifty.github.io/Pages/QTap/privacy-policy/`
+- Support: `https://cocoaswifty.github.io/Pages/QTap/support/`
+
 ## Publishing
 
 Enable GitHub Pages for this repository from the `main` branch and root folder.

@@ -37,3 +37,8 @@ Public support and privacy documents.
 
 - [Privacy Policy]({{ '/Toilet/privacy-policy/' | relative_url }})
 - [Support]({{ '/Toilet/support/' | relative_url }})
+
+## QTap
+
+- [Privacy Policy]({{ '/QTap/privacy-policy/' | relative_url }})
+- [Support]({{ '/QTap/support/' | relative_url }})
